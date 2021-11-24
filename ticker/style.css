@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#ticker {
+    /* background-color: sienna; */
+    height: 33px;
+    position: relative;
+    overflow: hidden;
+    border: 3px dashed midnightblue;
+    
+}
+
+#headlines {
+    left: 100%;
+    position: absolute;
+    /* background-color:plum; */
+    border: 3px tomato dotted;
+    width: min-content;
+    white-space: nowrap;
+    font-size: 18px;
+    overflow: hidden;
+
+}
+
+a {
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
